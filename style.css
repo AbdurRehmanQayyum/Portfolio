@@ -300,10 +300,18 @@ font-size: clamp(3.5rem, 10vw, 5.5rem);
     transform: rotate(225deg);
 }
 
+.services-box .icon a:hover i {
+    transform: rotate(180deg);
+}
+
 .services-box h3 {
     font-size: 3rem;
     margin: .5rem 0 2rem;
+    transition: 0.5s;
+}
 
+.services-box:hover h3 {
+    color: var(--main-color);
 }
 
 .services-box p {
