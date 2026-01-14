@@ -18,3 +18,30 @@
     --disabled-color: #fff3;
 
 }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--white-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 700;
+}
