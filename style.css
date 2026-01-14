@@ -10,7 +10,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root{
+:root {
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --main-color: #7cf03d;
@@ -44,4 +44,22 @@ header {
     font-size: 3rem;
     color: var(--white-color);
     font-weight: 700;
+}
+
+nav a {
+    font-size: 2rem;
+    color: var(--white-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .5s;
+}
+
+nav a:hover ,
+nav a.active {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 4rem;
+    display: none;
 }
