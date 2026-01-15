@@ -1,8 +1,10 @@
 const resumeBtns = document.querySelectorAll('.resume-btn');
 
-resumeBtns.forEach((Btn, idx) => {
-    Btn.addEventListner('click', () => {
-        btn.classList.remove('active');
+resumeBtns.forEach((btn, idx) => {
+    btn.addEventListener('click', () => {
+        resumeBtns.forEach(btn => {
+            btn.classList.remove('active');
+        });
+        btn.classList.add('active');
     });
-    btn.classList.add('active');
 });
