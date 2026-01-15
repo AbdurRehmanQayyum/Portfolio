@@ -354,6 +354,14 @@ font-size: clamp(3.5rem, 10vw, 5.5rem);
     color: var(--main-color);
 } 
 
+.resume-detail {
+    display: none;
+}
+
+.resume-detail.active {
+    display: block;
+}
+
 .resume-box .heading {
     font-size: 3.5rem;
     text-align: left;
