@@ -36,7 +36,7 @@ arrowRight.addEventListener('click', () => {
     }
     else {
         index = 5;
-        // arrowRight.classList.add('disabled');
+        arrowRight.classList.add('disabled');
     }
 
     activePortfolio();
