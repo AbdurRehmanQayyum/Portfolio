@@ -45,7 +45,7 @@ arrowRight.addEventListener('click', () => {
 arrowLeft.addEventListener('click', () => {
     if (index > 1) {
         index--;
-        // arrowRight.classList.remove('disabled');
+        arrowRight.classList.remove('disabled');
     }
     else {
         index = 0;
