@@ -32,7 +32,7 @@ const activePortfolio = () => {
 arrowRight.addEventListener('click', () => {
     if (index < 4) {
         index++;
-        // arrowLeft.classList.remove('disabled');
+        arrowLeft.classList.remove('disabled');
     }
     else {
         index = 5;
@@ -49,7 +49,7 @@ arrowLeft.addEventListener('click', () => {
     }
     else {
         index = 0;
-        // arrowLeft.classList.add('disabled');
+        arrowLeft.classList.add('disabled');
     }
 
     activePortfolio();
