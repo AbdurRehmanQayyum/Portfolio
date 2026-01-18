@@ -764,6 +764,8 @@ transition: .5s;
     cursor: pointer;
 }
 
+/* BREAKPOINTS */
+
 @media screen and (max-width: 1200px){
     html {
         font-size: 55%;
@@ -801,6 +803,10 @@ transition: .5s;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         text-align: center;
         display: none;
+    }
+
+    nav.active {
+        display: block;
     }
 
     nav a {
