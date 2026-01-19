@@ -882,5 +882,7 @@ transition: .5s;
         padding: 2.5rem 3rem 3.5rem;
     }
 
-    
+    .contact-box h2 {
+        font-size: 3.5rem;
+    }
 }
